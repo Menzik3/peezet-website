@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    background-image: url("images/owners4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#fuel-updates {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.price-update {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.price-update ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-update li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.increase {
+    color: red;
+    font-weight: bold;
+}
+
+/* Dark overlay */
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Keep text above overlay */
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 100px; /* adjust the width of the logo */
+    height: 100px; /* adjust the height of the logo */
+    margin-right: 20px; /* add some margin to the right of the logo */
+    float: left; /* float the logo to the left */
+}
+
+
+.tagline {
+    font-style: italic;
+    color: #f4c10f;
+}
+
+nav {
+    background: #f4c10f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #000;
+    color: #fff;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.team-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.hours-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.copy {
+    margin-top: 10px;
+    font-size: 14px;
+}
