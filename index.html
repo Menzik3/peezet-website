@@ -1,101 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pee Zet Petroleum & Trading</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pee Zet Petroleum &amp; Trading (Pty) Ltd | Energy Solutions</title>
+  <meta name="description" content="Pee Zet Petroleum & Trading — Licensed petroleum and energy solutions for Umzimkhulu, KwaZulu-Natal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <IMG SRC="images/owners3.png" alt="Pee Zet Petroleum & Trading" class="logo">
-    <h1>Pee Zet Petroleum & Trading (Pty) Ltd</h1>
-    <p class="tagline">“We Keep You Moving”</p>
-    <link rel="stylesheet" href="style.css">
-</header>
+  <!-- ANNOUNCEMENT BAND -->
+  <div class="announce-band">
+    <div class="announce-inner">
+      <span class="announce-live">LIVE PRICES</span>
+      <marquee behavior="scroll" direction="left" scrollamount="3">
+        &nbsp;&nbsp; FUEL PRICES EFFECTIVE 4 MARCH 2026 &nbsp;|&nbsp;
+        Petrol 95 ULP: <strong>R20.19/L</strong> &nbsp;<span class="up">▲ +R0.20</span> &nbsp;|&nbsp;
+        Petrol 93 ULP: <strong>R19.88/L</strong> &nbsp;<span class="up">▲ +R0.20</span> &nbsp;|&nbsp;
+        Diesel 50ppm: <strong>R18.62/L</strong> &nbsp;<span class="up">▲ +R0.62</span> &nbsp;|&nbsp;
+        Diesel 500ppm: <strong>R18.59/L</strong> &nbsp;<span class="up">▲ +R0.65</span> &nbsp;|&nbsp;
+        Illuminating Paraffin: <strong>R15.87/L</strong> &nbsp;<span class="up">▲ +R0.58</span> &nbsp;|&nbsp;
+        ⚠ Significant April 2026 increases projected — Petrol 95 may reach R25.13/L &nbsp;&nbsp;
+      </marquee>
+    </div>
+  </div>
 
-<nav>
-    <a href="#about">What We Do</a>
-    <a href="#products">Our Products</a>
-    <a href="#team">Meet The Team</a>
-    <a href="#hours">Trading Hours</a>
-    <a href="#fuel-updates">Fuel Updates</a>
-</nav>
-
-<section id="about">
-    <h2>What We Do</h2>
-    <p>
-        Pee Zet Petroleum & Trading (Pty) Ltd is a licensed petroleum business
-        providing reliable fuel and energy solutions to the Umzimkhulu community
-        and surrounding areas. We are committed to quality service, safety,
-        and keeping our customers moving.
-    </p>
-</section>
-
-<section id="products">
-    <h2>Our Products</h2>
-    <ul>
-        <li>Petrol (Unleaded)</li>
-        <li>Diesel</li>
-        <li>Aviation Gasoline</li>
-        <li>Jet Fuel</li>
-        <li>Illuminating Paraffin</li>
-        <li>Biofuels</li>
-        <li>Liquefied Petroleum Gas (LPG)</li>
-    </ul>
-</section>
-
-
-<section id="fuel-updates">
-    <h2>Fuel Price Updates</h2>
-
-    <div class="price-update">
-        <p><strong>Effective Date:</strong> March 2026</p>
-
-        <ul>
-            <li>Diesel 50ppm: <span class="increase">▲ Increased by R0.56</span></li>
-            <li>Illuminating Paraffin: <span class="increase">▲ Increased by R0.35</span></li>
-            <li>Petrol 95 ULP: <span class="increase">▲ Increased by R0.11</span></li>
+  <!-- NAVIGATION -->
+  <header id="site-header">
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="brand">
+          <img src="images/owners3.png" alt="Pee Zet Petroleum Logo" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-main">Pee Zet PETROLEUM</span>
+            <span class="brand-sub">&amp; Trading (Pty) Ltd</span>
+          </div>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about"       class="nav-link">About</a></li>
+          <li><a href="#products"    class="nav-link">Products</a></li>
+          <li><a href="#fuel-prices" class="nav-link">Fuel Prices</a></li>
+          <li><a href="#team"        class="nav-link">Leadership</a></li>
+          <li><a href="#operations"  class="nav-link">Operations</a></li>
+          <li><a href="#contact"     class="nav-link nav-link--cta">Contact</a></li>
         </ul>
-    </div>
-</section>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-<section id="team">
-    <h2>Meet The Team</h2>
-    <div class="team-container">
-        <div class="team-member">
-            <img src="images/owners1.jpeg" alt="Pee Zet Owners at Fuel Station">
-            <p>Owners of Pee Zet Petroleum & Trading</p>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="images/owners4.jpeg" alt="PZ Petroleum fuel station" class="hero-bg-img" />
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-bg-gradient"></div>
+    </div>
+    <div class="hero-body">
+      <div class="hero-kicker">
+        <span class="kicker-line"></span>
+        DMRE LICENSED &nbsp;·&nbsp; KWAZULU-NATAL
+        <span class="kicker-line"></span>
+      </div>
+      <h1 class="hero-headline">
+        Reliable Energy.<br />
+        <span class="headline-accent">Delivered.</span>
+      </h1>
+      <p class="hero-desc">
+        Pee Zet Petroleum &amp; Trading (Pty) Ltd — the fuel and energy partner
+        keeping Umzimkhulu and surrounding KZN communities moving.
+      </p>
+      <div class="hero-ctas">
+        <a href="#products" class="cta cta--primary">Explore Products</a>
+        <a href="#contact"  class="cta cta--ghost">Enquire Now</a>
+      </div>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric">
+        <span class="metric-value">7<sup>+</sup></span>
+        <span class="metric-label">Product Lines</span>
+      </div>
+      <div class="metric-sep"></div>
+      <div class="metric">
+        <span class="metric-value">100<sup>%</sup></span>
+        <span class="metric-label">DMRE Licensed</span>
+      </div>
+      <div class="metric-sep"></div>
+      <div class="metric">
+        <span class="metric-value">KZN</span>
+        <span class="metric-label">Region Served</span>
+      </div>
+      <div class="metric-sep"></div>
+      <div class="metric">
+        <span class="metric-value">24/7</span>
+        <span class="metric-label">Availability</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Who We Are</p>
+        <h2 class="section-title">Powering Communities.<br /><span class="title-accent">Fuelling Progress.</span></h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-visual">
+          <div class="about-img-frame">
+            <img src="images/owners4.jpeg" alt="Pee Zet Petroleum station" class="about-img" />
+          </div>
+          <div class="about-cert">
+            <svg class="cert-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
+            <div>
+              <strong>DMRE Certified</strong>
+              <span>Licensed Petroleum Operator</span>
+            </div>
+          </div>
         </div>
-        <div class="team-member">
-            <img src="images/owners2.jpeg" alt="Pee Zet Owners at Station Entrance">
-            <p>Managing Partners</p>
+        <div class="about-copy">
+          <p class="about-lead">
+            Pee Zet Petroleum &amp; Trading (Pty) Ltd is a fully licensed petroleum business providing dependable fuel and energy solutions to Umzimkhulu and surrounding KwaZulu-Natal communities.
+          </p>
+          <p>
+            We serve individual motorists, commercial operators, agricultural businesses, and institutional clients with a comprehensive product range — from everyday regulated pump grades to specialised aviation fuels and LPG. Our operations are anchored in safety compliance, product integrity, and genuine community investment.
+          </p>
+          <div class="value-grid">
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Safety &amp; Compliance</strong>
+                <p>Operations meet or exceed all DMRE and industry safety standards.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <strong>Certified Quality</strong>
+                <p>Fuel sourced exclusively from certified, compliant national suppliers.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div>
+                <strong>Local Commitment</strong>
+                <p>Locally owned and deeply invested in the Entsikeni community.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <div>
+                <strong>Reliable Supply</strong>
+                <p>Consistent availability — because your downtime is not an option.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<section id="hours">
-    <h2>Trading Hours</h2>
-    <div class="hours-box">
-        <h3>Summer Time</h3>
-        <p>Monday – Friday: 06:00 AM</p>
-        <p>Saturday, Sunday & Public Holidays: 06:30 AM</p>
+  <!-- PRODUCTS -->
+  <section id="products" class="section section--dark">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <p class="eyebrow eyebrow--light">Product Portfolio</p>
+        <h2 class="section-title section-title--light">Comprehensive<br /><span class="title-accent">Energy Solutions</span></h2>
+        <p class="section-desc">One source for all your petroleum and energy requirements — from regulated grades to specialised fuels.</p>
+      </div>
+      <div class="products-grid">
 
-        <h3>Winter Time</h3>
-        <p>Monday – Friday: 06:00 AM</p>
-        <p>Saturday, Sunday & Public Holidays: 07:00 AM</p>
+        <div class="prod-card">
+          <div class="prod-head">
+            <span class="prod-number">01</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 22V3h14v19"/><path d="M9 22V12h6v10"/><line x1="5" y1="11" x2="19" y2="11"/><line x1="5" y1="7" x2="19" y2="7"/></svg>
+            </div>
+          </div>
+          <h3>Petrol (Unleaded)</h3>
+          <p>93 &amp; 95 ULP grades for all petrol-powered vehicles. Fresh, compliant, and stored to exacting standards.</p>
+          <div class="prod-grades"><span>93 ULP</span><span>95 ULP</span></div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-head">
+            <span class="prod-number">02</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4.03 3-9 3S3 13.66 3 12"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+          </div>
+          <h3>Diesel</h3>
+          <p>Wholesale and retail diesel for heavy industry, commercial fleets, agriculture, and logistics.</p>
+          <div class="prod-grades"><span>50ppm</span><span>500ppm</span></div>
+        </div>
+
+        <div class="prod-card prod-card--accent">
+          <span class="prod-badge">Specialised</span>
+          <div class="prod-head">
+            <span class="prod-number">03</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+          </div>
+          <h3>Aviation Gasoline</h3>
+          <p>AVGAS for piston-engine aircraft, certified to meet all aviation quality and safety specifications.</p>
+          <div class="prod-grades"><span>AVGAS 100LL</span></div>
+        </div>
+
+        <div class="prod-card prod-card--accent">
+          <span class="prod-badge">Specialised</span>
+          <div class="prod-head">
+            <span class="prod-number">04</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+          </div>
+          <h3>Jet Fuel (ATF)</h3>
+          <p>Jet A-1 aviation turbine fuel for commercial and private aviation — supplied to specification every time.</p>
+          <div class="prod-grades"><span>Jet A-1</span></div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-head">
+            <span class="prod-number">05</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2c0 0-8 8-8 13a8 8 0 0 0 16 0c0-5-8-13-8-13z"/></svg>
+            </div>
+          </div>
+          <h3>Illuminating Paraffin</h3>
+          <p>An essential domestic energy source for cooking, heating, and lighting across our communities.</p>
+          <div class="prod-grades"><span>IP Grade</span></div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-head">
+            <span class="prod-number">06</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+          </div>
+          <h3>Biofuels</h3>
+          <p>Certified blended biofuel options supporting South Africa's sustainable energy transition.</p>
+          <div class="prod-grades"><span>Blended Grades</span></div>
+        </div>
+
+        <div class="prod-card prod-card--wide">
+          <div class="prod-head">
+            <span class="prod-number">07</span>
+            <div class="prod-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+          </div>
+          <div class="prod-wide-body">
+            <h3>Liquefied Petroleum Gas (LPG)</h3>
+            <p>Clean-burning LPG for domestic cooking and heating, commercial kitchens, and industrial process applications — available in cylinder and bulk configurations.</p>
+            <div class="prod-grades"><span>Domestic</span><span>Commercial</span><span>Industrial</span></div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section>
+  </section>
 
-<footer>
-    <p><strong>Location:</strong> Entsikeni, Malenge Tribal Authority, Umzimkhulu, KwaZulu-Natal, 3297</p>
-    <p><strong>Contact:</strong>
-        0 073 388 3151 / 076 090 5101</p>
-    <p><strong>Email:</strong> zasatywa@gmail.com</p>
-    <p class="copy">&copy; 2026 Pee Zet Petroleum & Trading (Pty) Ltd</p>
-</footer>
+  <!-- FUEL PRICES -->
+  <section id="fuel-prices" class="section">
+    <div class="container">
+      <div class="section-header section-header--split">
+        <div>
+          <p class="eyebrow">Effective 4 March 2026</p>
+          <h2 class="section-title">Current Fuel<br /><span class="title-accent">Price Schedule</span></h2>
+        </div>
+        <div class="price-meta">
+          <p>Inland / KwaZulu-Natal pricing zone. Prices in Rands per litre.</p>
+          <p class="price-source">Source: DMRE · Central Energy Fund (CEF)</p>
+        </div>
+      </div>
 
-<script src="script.js"></script>
+      <div class="price-cards">
+        <div class="price-card">
+          <div class="price-card-label"><span class="dot dot--amber"></span>Petrol 95 ULP</div>
+          <div class="price-card-value">R<span>20.19</span><small>/L</small></div>
+          <div class="price-card-change change--up">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 6H3z"/></svg>+R0.20 &nbsp;Increased
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-label"><span class="dot dot--amber"></span>Petrol 93 ULP</div>
+          <div class="price-card-value">R<span>19.88</span><small>/L</small></div>
+          <div class="price-card-change change--up">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 6H3z"/></svg>+R0.20 &nbsp;Increased
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-label"><span class="dot dot--blue"></span>Diesel 50ppm</div>
+          <div class="price-card-value">R<span>18.62</span><small>/L</small></div>
+          <div class="price-card-change change--up">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 6H3z"/></svg>+R0.62 &nbsp;Increased
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-label"><span class="dot dot--blue"></span>Diesel 500ppm</div>
+          <div class="price-card-value">R<span>18.59</span><small>/L</small></div>
+          <div class="price-card-change change--up">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 6H3z"/></svg>+R0.65 &nbsp;Increased
+          </div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-label"><span class="dot dot--purple"></span>Illuminating Paraffin</div>
+          <div class="price-card-value">R<span>15.87</span><small>/L</small></div>
+          <div class="price-card-change change--up">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 3l5 6H3z"/></svg>+R0.58 &nbsp;Increased
+          </div>
+        </div>
+      </div>
+
+      <div class="outlook-banner">
+        <div class="outlook-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <div class="outlook-body">
+          <strong>April 2026 Price Outlook</strong>
+          <p>Significant increases projected from 1 April 2026. Global oil prices above $115/bbl due to Middle East supply disruptions. Petrol 95 may reach approximately <strong>R25.13/L</strong>; Diesel 50ppm approximately <strong>R25.78/L</strong>. We advise filling up before end of March.</p>
+        </div>
+        <a href="#contact" class="cta cta--primary cta--sm">Contact Us</a>
+      </div>
+
+      <p class="price-footnote">Petrol prices are regulated by the DMRE. Diesel retail prices are indicative — final pump prices may vary. Paraffin SMNRP applies. Prices reflect the KwaZulu-Natal inland zone. Contact us to confirm exact current pricing.</p>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section id="team" class="section section--offwhite">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <p class="eyebrow">Our People</p>
+        <h2 class="section-title">The Leadership<br /><span class="title-accent">Behind Pee Zet Petroleum</span></h2>
+      </div>
+      <div class="leadership-grid">
+        <div class="leader-card">
+          <div class="leader-img-wrap">
+            <img src="images/owners1.jpeg" alt="Founding Owners of Pee Zet Petroleum" />
+            <div class="leader-overlay"></div>
+          </div>
+          <div class="leader-body">
+            <div class="leader-role">Founding Principals</div>
+            <h3 class="leader-name">Pee Zet Petroleum &amp; Trading</h3>
+            <p>The vision and drive behind Pee Zet Petroleum — establishing a trusted energy business rooted in service and community upliftment for the Umzimkhulu region.</p>
+          </div>
+        </div>
+        <div class="leader-card">
+          <div class="leader-img-wrap">
+            <img src="images/owners2.jpeg" alt="Managing Partners at station entrance" />
+            <div class="leader-overlay"></div>
+          </div>
+          <div class="leader-body">
+            <div class="leader-role">Managing Partners</div>
+            <h3 class="leader-name">Operational Leadership</h3>
+            <p>Responsible for day-to-day operations, regulatory compliance, supplier relationships, and maintaining our commitment to reliable service across all product lines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPERATIONS / HOURS -->
+  <section id="operations" class="section section--dark">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow eyebrow--light">Station Operations</p>
+        <h2 class="section-title section-title--light">Trading Hours &amp;<br /><span class="title-accent">Station Information</span></h2>
+      </div>
+      <div class="ops-layout">
+        <div class="ops-hours">
+          <div class="ops-season-block">
+            <div class="ops-season-tag ops-season-tag--summer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+              Summer Hours
+            </div>
+            <table class="hours-table">
+              <tr><td>Monday – Friday</td><td><strong>06:00</strong></td></tr>
+              <tr><td>Saturday &amp; Sunday</td><td><strong>06:30</strong></td></tr>
+              <tr><td>Public Holidays</td><td><strong>06:30</strong></td></tr>
+            </table>
+          </div>
+          <div class="ops-season-block">
+            <div class="ops-season-tag ops-season-tag--winter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              Winter Hours
+            </div>
+            <table class="hours-table">
+              <tr><td>Monday – Friday</td><td><strong>06:00</strong></td></tr>
+              <tr><td>Saturday &amp; Sunday</td><td><strong>07:00</strong></td></tr>
+              <tr><td>Public Holidays</td><td><strong>07:00</strong></td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="ops-info">
+          <div class="ops-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Station Location</strong>
+              <p>Entsikeni, Malenge Tribal Authority<br/>Umzimkhulu, KwaZulu-Natal, 3297</p>
+            </div>
+          </div>
+          <div class="ops-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.92-1.86a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.82 15l.1 1.92z"/></svg>
+            <div>
+              <strong>Telephone</strong>
+              <p><a href="tel:0733883151">073 388 3151</a><br/><a href="tel:0760905101">076 090 5101</a></p>
+            </div>
+          </div>
+          <div class="ops-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:zasatywa@gmail.com">zasatywa@gmail.com</a></p>
+            </div>
+          </div>
+          <p class="ops-note">Closing times may vary seasonally. Contact us to confirm before an out-of-hours visit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-copy">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Ready to Partner<br /><span class="title-accent">With Us?</span></h2>
+          <p>Whether you need regular fuel supply, bulk pricing, or product availability information — our team is ready to assist.</p>
+          <div class="contact-links">
+            <a href="tel:0733883151" class="contact-link-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.9a16 16 0 0 0 6 6l.92-1.86a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.82 15l.1 1.92z"/></svg>
+              073 388 3151 / 076 090 5101
+            </a>
+            <a href="mailto:zasatywa@gmail.com" class="contact-link-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              zasatywa@gmail.com
+            </a>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="cc-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><strong>Find Us</strong><p>Entsikeni, Malenge Tribal Authority<br/>Umzimkhulu, KZN, 3297</p></div>
+          </div>
+          <div class="cc-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div><strong>Trading Hours</strong><p>Open from 06:00 weekdays<br/>06:30–07:00 weekends &amp; holidays</p></div>
+          </div>
+          <div class="cc-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
+            <div><strong>Licensed &amp; Compliant</strong><p>DMRE Licensed Petroleum Operator<br/>All products certified &amp; regulated</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/owners3.png" alt="PZ Petroleum Logo" class="footer-logo" />
+          <div>
+            <strong>Pee Zet Petroleum &amp; Trading (Pty) Ltd</strong>
+            <em>"We Keep You Moving"</em>
+          </div>
+        </div>
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#fuel-prices">Fuel Prices</a>
+          <a href="#team">Leadership</a>
+          <a href="#operations">Operations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pee Zet Petroleum &amp; Trading (Pty) Ltd &nbsp;·&nbsp; Entsikeni, Umzimkhulu, KwaZulu-Natal, 3297</p>
+        <p>Registered petroleum operator &nbsp;·&nbsp; All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
 </body>
 </html>
